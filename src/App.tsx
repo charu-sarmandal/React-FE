@@ -10,7 +10,8 @@ const App = () => {
 
       <nav className="navbar bg-body-tertiary">
         <div>
-        <h1>Hello World!</h1>
+       
+         
         </div>
       </nav>
 
@@ -18,7 +19,7 @@ const App = () => {
       { <Routes>
        
         
-        <Route path="/products" element={<Products />} />
+        <Route path="/Products" element={<Products />} />
       </Routes> }
     </>
 )}
